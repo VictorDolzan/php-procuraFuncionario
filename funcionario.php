@@ -26,6 +26,7 @@ $func = findId($funcionarios, $id);
 if(is_null($func['id']))
 {
     echo 'Usuário não existe';
+    die();
 }
 else
 {
